@@ -1,0 +1,137 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.navbar-fixed-top {
+  background-color: #333;
+}
+
+.head-chevrons a {
+  float: left;
+  display: inline;
+  position: relative;
+  padding-top: 3%;
+}
+
+.head-chevrons a:hover {
+  color: black;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li a {
+  font-size: 20px;
+  display: inline;
+  padding: 2%;
+  background-color: #333;
+  float: right;
+  color: white;
+  font-family: 'Raleway';
+  position: relative;
+  right: 4%;
+}
+
+.buttons li a:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+#about-title {
+  border-bottom: solid 3px #333;
+  border-top: solid 3px #333;
+  font-family: "Raleway";
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.jumbotron {
+  position: relative;
+  top: 140px;
+  width: 85%;
+  left: 7%;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  text-align: right;
+  width: 60%;
+}
+
+.img-circle {
+  width: 30%;
+  float: right;
+}
+
+#port-title {
+  font-family: "Raleway";
+  position: relative;
+  top: 180px;
+  text-align: center;
+  border-top: solid 3px #333;
+  border-bottom: solid 3px #333;
+}
+
+.thumbnail {
+  position: relative;
+  top: 240px;
+  background-color: #333;
+}
+
+.thumbnail img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.thumbnail img:hover {
+  opacity: .7;
+}
+
+.caption-text {
+  font-family: 'Raleway';
+  text-align: center;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons a {
+  color: #efefef
+}
+
+.footer {
+  position: relative;
+  top: 300px;
+  border-top: 1px solid #efefef;
+  background-color: #333;
+  padding-bottom: 80px;
+}
+
+.foot-text {
+  color: white;
+  font-family: "Raleway";
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.icons {
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.footer i:hover {
+  background-color: #333;
+  color: black;
+}
